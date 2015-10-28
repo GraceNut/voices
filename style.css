@@ -1,8 +1,7 @@
 body {
 	margin: 0;
 	text-align: center;
-	font-family: 'Roboto';
-	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
 	line-height: 90vh;
 }
 
@@ -37,36 +36,93 @@ p {
 	color: hsl(40, 30%, 30%);
 }
 
+.hi h1 {
+	font-size: 2.5em;
+	font-weight: 400;
+	font-family: 'Lato';
+	color: hsl(100, 100%, 45%);
+}
+
 .idiot {
-	font-size: 6em;
+	background-color: red;
+}
+
+.idiot h1 {
+	font-size: 10em;
 	font-family: 'Roboto';
 	color: hsl(0, 100%, 15%);
-	background-color: red;
 	font-weight: 500;
 }
 
-.lookatme {
-	font-size: 4em;
-	background-color: hsl(40, 100%, 50%);
-	color: #fff;
-}
-
-.wellactually {
-	font-size: 5em;
+.wellactually h1 {
+	font-size: 8em;
 	font-family: 'Dancing Script';
 	color: hsl(180, 70%, 70%);
 }
 
 .clever {
-	font-family: 'Titillium Web';
-	font-size: 3em;
 	background-color: hsl(23, 60%, 80%);
+}
+
+.clever h1 {
+	font-size: 6em;
+	font-family: 'Titillium Web';
 	color: hsl(3, 70%, 60%);
 }
 
-.help {
-	font-weight: 500;
-	font-size: 0.8em;
-	background-color: #000;
+.lookatme {
+	background-color: hsl(40, 100%, 50%);
+}
+
+.lookatme h1 {
+	font-size: 8em;
 	color: #fff;
+}
+
+.help {
+	background-color: #000;
+}
+
+.help h1 {
+	font-size: 2em;
+	font-weight: 500;
+	color: #fff;
+}
+
+.keepitup h1 {
+	font-size: 6em;
+	font-weight: 900;
+	font-family: 'Lato';
+	color: hsl(200, 100%, 50%);
+}
+
+.friends {
+	background-color: hsl(180, 90%, 90%);
+}
+
+.friends h1 {
+	font-size: 5em;
+	font-weight: 400;
+	color: hsl(180, 40%, 20%);
+}
+
+.goodjob {
+	background-color: hsl(0, 100%, 80%);
+}
+
+.goodjob h1 {
+	font-size: 9em;
+	font-weight: 300;
+	font-family: 'Lato';
+	color: hsl(0, 50%, 30%);
+}
+
+.together {
+	background-color: hsl(150, 30%, 80%);
+}
+
+.together h1 {
+	font-family: 'Dancing Script';
+	font-size: 6em;
+	color: hsl(260, 100%, 30%);
 }
