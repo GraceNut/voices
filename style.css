@@ -2,7 +2,18 @@ body {
 	margin: 0;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	line-height: 90vh;
+}
+
+small {
+	height: 10vh;
+	display: block;
+	line-height: 10vh;
+	margin-top: -2em;
+	background-color: hsl(150, 30%, 80%);
+}
+
+small a {
+	color: hsl(260, 100%, 30%);
 }
 
 div {
@@ -15,8 +26,8 @@ div:first-child {
 	margin-top: -1.5em;
 }
 
-div:last-child {
-	height: 100vh;
+h1, p {
+	line-height: 90vh;
 }
 
 h1 {
