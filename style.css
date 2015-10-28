@@ -66,6 +66,7 @@ p {
 
 .clever h1 {
 	font-size: 6em;
+	font-weight: 900;
 	font-family: 'Titillium Web';
 	color: hsl(3, 70%, 60%);
 }
@@ -102,7 +103,8 @@ p {
 
 .friends h1 {
 	font-size: 5em;
-	font-weight: 400;
+	font-weight: 700;
+	font-family: 'Titillium Web';
 	color: hsl(180, 40%, 20%);
 }
 
