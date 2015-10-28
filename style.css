@@ -1,26 +1,50 @@
 body {
 	text-align: center;
-	line-height: 100vh;
+	font-family: 'Roboto';
+	font-weight: 400;
 }
 
 div {
-	margin-top: -6em;
-	height: 100vh;
+	margin: 0 auto;
+	height: 95vh;
 	width: 100vw;
 	text-align: middle;
-	background-color: green;
 }
 
 h1 {
-	font-size: 6em;
+	line-height: 100vh;
+	vertical-align: top;
+	padding: 0 0;
+}
+
+p {
+	margin: 0 auto;
+	max-width: 650px;
+	font-size: 1.4em;
 }
 
 .idiot {
-	color: red;
+	font-size: 6em;
 	font-family: 'Roboto';
+	color: red;
+	background-color: lightblue;
 	font-weight: 500;
 }
 
+.wellactually {
+	font-size: 5em;
+	font-family: 'Dancing Script';
+}
+
 .clever {
+	font-family: 'Titillium Web';
+	font-size: 3em;
 	background-color: #ffbf80;
+}
+
+.help {
+	font-weight: 500;
+	font-size: 0.8em;
+	background-color: #000;
+	color: #fff;
 }
